@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>KALKULATOR SEDERHANA</title>
+<body>
+<center>
+<button style=background-color:blue;border-color:bluesky;color;black>
+<div class="container">
+<h3>KALKULATOR SEDERHANA</h3>
+<form name="calculator">
+<br><input id="display"type="text"name="display" readonly>
+</br>
+<br>
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="7" onclick="calculator.display.value+='7'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="8" onclick="calculator.display.value+='8'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="9" onclick="calculator.display.value+='9'">
+&nbsp;&nbsp;&nbsp;<input class="button mathButton" type="button" value="+" onclick="calculator.display.value+='+'">
+</br> <br>
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="4" onclick="calculator.display.value+='4'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="5" onclick="calculator.display.value+='5'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="6" onclick="calculator.display.value+='6'">
+&nbsp;&nbsp;&nbsp;<input class="button mathButton" type="button" value="-" onclick="calculator.display.value+='-'">
+</br> <br>
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="1" onclick="calculator.display.value+='1'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="2" onclick="calculator.display.value+='2'">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="3" onclick="calculator.display.value+='3'">
+&nbsp;&nbsp;&nbsp;<input class="button mathButton" type="button" value="x" onclick="calculator.display.value+='*'">
+</br> <br>
+&nbsp;&nbsp;&nbsp;<input id="clearButton" class="button" type="button" value="C" onclick="calculator.display.value=''">
+&nbsp;&nbsp;&nbsp;<input class="button digits" type="button" value="0" onclick="calculator.display.value+='0'">
+&nbsp;&nbsp;&nbsp;<input class="button mathButton" type="button" value="=" onclick="calculator.display.value=eval(calculator.display.value)">
+&nbsp;&nbsp;&nbsp;<input class="button mathButton" type="button" value="/" onclick="calculator.display.value+='/'">
+</br>
+</form>
+</button>
+</div>
+</head>
+</center>
+</body>
+</html>
